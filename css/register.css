@@ -1,0 +1,337 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dd,dt,img,input,fieldset,legend{margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration:none; color:#333;}
+img{border:0;display: block;}
+i{display: inline-block;}
+a:hover{cursor: pointer;outline: none;}
+
+body{
+	font: 14px "微软雅黑";
+}
+
+.wrap{
+	width: 960px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+#header{
+	width: 100%;
+	height: 65px;
+	background: url(../images/bg_header.png?20150720) 50% 0 no-repeat #fe516b;
+	overflow: hidden;
+}
+#header #logo{
+	float: left;
+	width: 210px;
+	height: 52px;
+	margin-top: 8px;
+}
+#header #topright{
+	height: 28px;
+	line-height: 28px;
+	margin-top: 20px;
+	float: right;
+}
+#logo .logo-id{
+	width: 110px;
+	height: 52px;
+	display: block;
+	float: left;
+}
+#logo .logo-meitu{
+	width: 100px;
+	height: 52px;
+	display: block;
+	float: left;
+	line-height: 28px;
+}
+#topright a{
+	display: inline-block;
+	color: #fff;
+}
+#topright span{
+	display: inline-block;
+	color: #fff;
+	padding: 0 5px;
+}
+
+
+
+#container{
+	width: 100%;
+	min-height: 600px;
+	overflow: hidden;
+}
+#containertop{
+	width: 654px;
+	margin: 70px auto 0;
+	color: #4d4d4d;
+	border-bottom: 2px solid #e1e1e1;
+	position: relative;
+	height: 34px;
+}
+#contmain{
+	height: 34px;
+	line-height: 34px;
+	float: left;
+	color: #666;
+	font-weight: bold;
+	font-size: 20px;
+}
+#contline{
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: -12px;
+	width: 84px;
+	height: 14px;
+	background: url(../images/regicon.png) 0 -90px;
+}
+
+
+#regmain{
+	width: 654px;
+	margin: 35px auto;
+	overflow: hidden;
+}
+#regleft{
+	padding-bottom: 30px;
+	border-right: 1px solid #d7d7d7;
+	width: 386px;
+	float: left;
+}
+#regleft li{
+	width: 100%;
+	margin-top: 10px;
+	padding-bottom: 5px;
+}
+#regleft li .regname{
+	display: inline-block;
+	width: 58px;
+	text-align: right;
+	color: #4d4d4d;
+	padding-right: 8px;
+	height: 36px;
+	line-height: 36px;
+}
+#regleft li .reginput{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	padding: 0 5px;
+	color: #4d4d4d;
+}
+#regleft li .regtip{
+	color: #888;
+	font-size: 12px;
+	padding-left: 3px;
+}
+#regleft li #regcode{
+	width: 106px;
+}
+#regleft li #createcode{
+	font-family: cursive;
+	margin-left: 3px;
+	padding: 5px 12px;
+	background-color: #fafafa;
+	border-radius: 3px;
+	border: 1px solid #aaa;
+	color: #666;
+	cursor: pointer;
+	width: 100px;
+	text-align: center;
+}
+#regleft #regcheck{
+	height: 36px;
+	padding: 0;
+}
+#regleft #regcheck .regname{
+	float: left;
+}
+#regleft #regcheck #spancheck{
+	float: left;
+}
+#regleft #regcheck input{
+	margin-right: 4px;
+}
+#regleft #regcheck a{
+	text-decoration: underline;
+	color: #0088cc;
+	font-weight: bold;
+}
+#regleft #regbtnli{
+	box-sizing: border-box;
+	padding:  0 0 0 70px;
+}
+#regleft #regbtnli #regbtn{
+	width: 210px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	border: none;
+	background: #fe4172;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 3px;
+}
+#regleft #regbtnli #regbtn:hover{
+	background: #ff5481;
+	cursor: pointer;
+}
+
+
+
+#regright{
+	float: left;
+	width: 220px;
+	padding-left: 45px;
+	color: #787878;
+	font-size: 12px;
+}
+#regright>a{
+	font-size: 14px;
+	color: #0088cc;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#otherlogin{
+	margin-top: 20px;
+	font-size: 14px;
+}
+#otherlogin>a{
+	display: inline-block;
+	width: 35px;
+	height: 45px;
+	margin: 5px 5px 0 0;
+}
+#otherlogin>a i{
+	width: 32px;
+	height: 40px;
+	margin-top: 5px 3px 0 0;
+	display: block;
+	background: url(../images/reglog.png) no-repeat -93px 0;
+}
+#otherlogin>a:nth-child(3) i{background-position: -10px 0;}
+#otherlogin>a:nth-child(4) i{background-position: -52px 0;}
+#otherlogin>a:nth-child(5) i{background-position: -177px 0;}
+#otherlogin>a:nth-child(6) i{background-position: -135px 0;}
+
+
+#footer{
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #f2f2f2;
+	color: #747357;
+	font-size: 12px;
+	line-height: 50px;
+	text-align: center;
+}
+#footer a{
+	color: #747357;
+}
+
+
+
+
+
+
+
+#loginArea{
+	overflow: hidden;
+	margin-top: 55px;
+}
+#logl{
+	float: left;
+	margin: 30px 40px 0 0;
+}
+#logl img{
+	width: 520px;
+	height: 348px;
+}
+
+#logr{
+	float: right;
+	width: 360px;
+	padding-top: 20px;
+	margin-right: 5px;
+	border: 1px solid #E8E8E8;
+	overflow: hidden;
+}
+
+#loginform{
+	padding: 0 38px;
+}
+#logintop{
+	line-height: 24px;
+	color: #434343;
+	font-size: 20px;
+	padding: 10px 0 4px;
+}
+#loginform>input{
+	padding: 0 5px;
+	height: 34px;
+	line-height: 34px;
+	border-radius: 2px;
+	background: none;
+	border: 1px solid #ccc;
+	width: 268px;
+	margin-top: 10px;
+}
+#loginform #loginforget{
+	font-size: 12px;
+	margin-top: 10px;
+	color: #4d4d4d;
+}
+#loginform #loginforget a{
+	float: right;
+	color: #fa4776;
+}
+#loginbtn{
+	width: 282px;
+	height: 46px;
+	background: #fe4172;
+	color: #fff;
+	font-size: 18px;
+	display: block;
+	margin: 15px 0 8px 0;
+	line-height: 18px;
+	text-align: center;
+	border: none;
+	border-radius: 3px;
+}
+#loginpartner{
+	width: 100%;
+	margin-top: 12px;
+	color: #787878;
+}
+#loginpartner p{
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+}
+#loginpartner p a{margin-right: 5px;}
+#loginpartner p a i{
+	display: inline-block;
+	width: 32px;
+	height: 40px;
+	margin: 5px 3px 0 0;
+	background: url(../images/reglog.png);
+}
+#loginpartner p a:nth-child(1) i{background-position: -93px 0;}
+#loginpartner p a:nth-child(2) i{background-position: -10px 0;}
+#loginpartner p a:nth-child(3) i{background-position: -177px 0;}
+
+#loginbot{
+	width: 360px;
+	height: 60px;
+	margin-top: 35px;
+	background: #f6f6f6;
+	color: #5a5a5a;
+	line-height: 60px;
+	text-align: center;
+}
+#loginbot a{
+	color: #fa4776;
+}

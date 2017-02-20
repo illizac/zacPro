@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>美图会员账号中心</title>
+	<link rel="shortcut icon" href="images/title.ico" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<link rel="stylesheet" type="text/css" href="css/regiconfont/iconfont.css">
+	<script type="text/javascript" src = "js/jquery-1.7.1.js"></script>
+	<script type="text/javascript" src = "js/jquery.cookie.js"></script>
+	<script type="text/javascript" src = "js/register.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div class="wrap">
+			<h1 id="logo">
+				<a href="/" class="logo-id"><img src="images/logoid.png"></a>
+				<a href="index.html" class="logo-meitu"><img src="images/logomeitu.png"></a>
+			</h1>
+			<div id="topright">
+				<a href="login.html">登录</a>
+				<span id="topline">|</span>
+				<a href="register.html">注册</a>
+			</div>
+		</div>
+	</div>
+	<div id="container">
+		<div class="wrap">
+			<div id="containertop">
+				<span id="contmain">用户注册</span>
+				<span id="contline"></span>
+			</div>
+
+			<div id="regmain">
+				<ul id="regleft">
+					<li id="user">
+						<span class="regname">用户名</span>
+						<input type="text" class="reginput">
+						<span class="regtip">*6~18位用户名</span>
+					</li>
+					<li id="pass">
+						<span class="regname">设置密码</span>
+						<input type="password" class="reginput">
+						<span class="regtip">*6~16个字符</span>
+					</li>
+					<li id="repass">
+						<span class="regname">重复密码</span>
+						<input type="password" class="reginput">
+						<span class="regtip"></span>
+					</li>
+					<li id="phone">
+						<span class="regname">手机号码</span>
+						<input type="text" class="reginput">
+						<span class="regtip">*11位手机号码</span>
+					</li>
+					<li id="email">
+						<span class="regname">电子邮箱</span>
+						<input type="text" class="reginput">
+						<span class="regtip"></span>
+					</li>
+					<li id="code">
+						<span class="regname">验证码</span>
+						<input type="text" id="regcode" class="reginput" placeholder="验证码">
+						<button id="createcode">获取验证码</button>
+						<span class="regtip"></span>
+					</li>
+					<li id="regcheck">
+						<span class="regname"></span><span id="spancheck"><input type="checkbox" checked="checked" id="regc">阅读并接受<a href="/">《美图账号服务条款》</a></span>
+					</li>
+					<li id="regbtnli">
+						<button id="regbtn">注 册</button>
+					</li>
+				</ul>
+				<div id="regright">
+					在美图其他产品上注册过？请<a href="login.html">直接登录</a>
+					<div id="otherlogin">
+						或使用其他方式登录：<br />
+						<a href="#"><i></i></a>
+						<a href="#"><i></i></a>
+						<a href="#"><i></i></a>
+						<a href="#"><i></i></a>
+						<a href="#"><i></i></a>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+	<div id="footer">
+		©2017 Meitu, Inc. 美图公司版权所有 
+		<a href="/">闽B2-20040192</a>
+	</div>
+</body>
+</html>

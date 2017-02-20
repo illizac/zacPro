@@ -1,0 +1,329 @@
+#banner{
+	height: 480px;
+	position: relative;
+}
+
+#navbac{
+	width: 230px;
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	z-index: 3;
+}
+#banav{width: 230px;position: absolute;top: 8px;left: 0;z-index: 4;}
+#banav li{
+	width: 200px;
+	padding: 5px 15px;
+	transition: all 0.2s;
+	opacity: 1;
+}
+#banav li:hover{background: #f53a8a;}
+#banav li h3{
+	font-weight: normal;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 10px;
+	color: #fff;
+	font-size: 14px;
+}
+#banav li h3 a,#banav li:hover>a{color: #fff}
+#banav li>a{
+	display: inline-block;
+	line-height: 28px;
+	padding: 0 9px;
+	color: #cfcfcf;
+}
+#banav li a:hover{text-decoration: underline;}
+
+#banimg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#banimgul{position: relative;}
+#banimgul li{
+	/*float: left;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1200px;
+	opacity: 0;
+	z-index: 1;
+}
+#banimgul li:first-child{
+	z-index: 2;
+	opacity: 1;
+}
+#banimgul li a img{
+	width: 100%;
+}
+
+#banimgindex{
+	width: 100%;
+	position: absolute;
+	padding-right: 40px;
+	box-sizing: border-box;
+	left: 0;
+	bottom: 20px;
+	z-index: 3;
+	text-align: right;
+}
+#banimgindex li{
+	width: 16px;
+	height: 16px;
+	margin: 0 6px;
+	display: inline-block;
+}
+#banimgindex li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	box-sizing: border-box;
+	border: 1px solid #afaeae;
+	border-radius: 20px;
+}
+#banimgindex li .act{
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+#bansub{
+	width: 240px;
+	height: 457px;
+	border-top: 3px solid #f53a8a;
+	position: absolute;
+	z-index: 5;
+	padding: 10px 20px;
+	background: #fff;
+	left: 230px;
+	top: 0;
+	overflow: hidden;
+	display: none;
+	opacity: 0;
+}
+#bansubul{
+	width: 100%;
+	overflow: hidden;
+}
+#bansubul li{
+	width: 220px;
+	height: 75px;
+	padding: 8px 20px 8px 0;
+}
+#bansubul li img{
+	width: 75px;
+	height: 75px;
+	margin-right: 5px;
+	float: left;
+}
+#bansubul li span{
+	display: block;
+	width: 140px;
+	float: left;
+	height: 75px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	line-height: 75px;
+	color: #605c5e;
+	transition: all 0.2s;
+}
+#bansubul li span:hover{
+	color: #f53a8a
+}
+
+
+
+
+
+
+
+#maintop{
+	width: 100%;
+	margin-top: 15px;
+	overflow: hidden;
+}
+#maintop li{
+	margin-left: 15px;
+	width: 390px;
+	height: 210px;
+	float: left;
+}
+#maintop li:first-child{margin: 0;}
+#maintop li a img{
+	width: 100%;
+}
+#main #boxwrap{
+	overflow: hidden;
+}
+
+#main .main-box{
+	margin-top: 34px;
+	width: 100%;
+	overflow: hidden;
+}
+#main .main-box .boxtitle{
+	line-height: 68px;
+	height: 68px;
+	font-size: 22px;
+	color: #333;
+	font-weight: 500;
+}
+#main .main-box .boxtitle a{
+	float: right;
+	color: #636363;
+	font-size: 14px;
+	transition: all 0.2s;
+}
+#main .main-box .boxtitle a:hover{
+	color: #ff3161;
+}
+#main .main-box .boxleft{
+	width: 300px;
+	float: left;
+	overflow: hidden;
+}
+#main .main-box .boxleft .maxa{
+	width: 100%;
+	display: block;
+	height: 300px;
+}
+#main .main-box .boxleft .maxa img{width: 100%;}
+#main .main-box .boxright{
+	float: left;
+	width: 900px;
+	overflow: hidden;
+}
+#main .main-box .boxright li{
+	width: 224px;
+	height: 299px;
+	border-left: 1px solid #f0f0f0;
+	border-top: 1px solid #f0f0f0;
+	float: left;
+	text-align: center;
+	background: #fff;
+	overflow: hidden;
+}
+#main .main-box .boxright li a:hover img{
+	transform: scale(1.1) translateY(12px);
+}
+#main .main-box .boxright li span{
+	display: block;
+	box-sizing: border-box;
+	padding: 0 10px;
+	transition: all 0.5s;
+	overflow: hidden;
+	position: relative;
+	z-index: 3;
+}
+#main .main-box .boxright li img{
+	width: 190px;
+	height: 190px;
+	margin: 15px auto;
+	transition: all 0.5s;
+	position: relative;
+	z-index: 4;
+}
+#main .main-box .boxright li a:hover .boxname,#main .main-box .boxright li a:hover .boxtrait{
+	opacity: 0;
+}
+#main .main-box .boxright li .boxname{
+	line-height: 20px;
+	height: 20px;
+	color: #333;
+}
+#main .main-box .boxright li .boxtrait{
+	line-height: 18px;
+	height: 18px;
+	font-size: 12px;
+	color: #999;
+}
+#main .main-box .boxright li .boxprice{
+	line-height: 21px;
+	height: 21px;
+	padding: 0;
+	margin-top: 6px;
+	color: #ff3161;
+	z-index: 5;
+}
+#main .main-box .boxright li a:hover .boxprice{
+	transform: scale(1.2) translateY(-8px);
+}
+
+#appwrap{position: relative;}
+#appmain{
+	width: 1120px;
+	padding: 10px 0;
+	margin: 0 40px;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+#appleft, #appright{
+	height: 30px;
+	line-height: 30px;
+	color: #bbb;
+	position: absolute;
+	top: 135px;
+}
+#appleft .iconfont, #appright .iconfont{
+	font-size: 30px;
+}
+#appleft{
+	left: 8px;
+}
+#appright{
+	right: 8px;
+}
+
+#appmain ul{
+	height: 300px;
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+#appmain ul li{
+	float: left;
+	height: 300px;
+	background: #fff;
+	width: 210px;
+	margin-right: 17px;
+	transition: all 0.4s;
+}
+#appmain ul li:hover{
+	transform: translateY(-6px);
+	box-shadow: 0 5px 14px rgba(0,0,0,0.05);
+}
+#appmain ul li a{
+	width: 210px;
+	display: block;
+	margin-top: 62px;
+	text-align: center;
+}
+#appmain ul li a img{
+	display: inline-block;
+	height: 98px;
+	margin-bottom: 30px;
+}
+#appmain ul li a span:nth-child(2){
+	display: block;
+	width: 100%;
+	font-size: 18px;
+	color: #333;
+	line-height: 30px;
+}
+#appmain ul li a span:nth-child(3){
+	display: block;
+	width: 100%;
+	line-height: 24px;
+	color: #999;
+}
